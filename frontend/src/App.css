@@ -1,3 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 .App {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -16,7 +30,8 @@
   mix-blend-mode: normal;
 }
 
-h1, h3 {
+h1,
+h3 {
   text-align: center;
   font-weight: bold;
 }
@@ -69,6 +84,10 @@ label {
   text-transform: uppercase;
 }
 
+.dashboard {
+  margin: 20px;
+}
+
 .dashboard .row {
   margin-left: 10px;
 }
@@ -76,7 +95,6 @@ label {
 .dashboard .col {
   padding: 10px;
   width: 245px;
-
 }
 
 .dashboard .card {
@@ -171,7 +189,7 @@ label {
 }
 
 .cart-wrapper .card-body {
-  justify-content:space-between;
+  justify-content: space-between;
   display: flex;
   margin-left: -100px;
 }
@@ -182,7 +200,7 @@ label {
 }
 
 .cart-wrapper .card-body .card-subtitle {
-  font-size: 15px !important; 
+  font-size: 15px !important;
 }
 
 .cart-wrapper .card-body .card-text {
@@ -195,7 +213,6 @@ label {
   height: 30px;
   margin-top: 20px;
   font-size: 10px;
-
 }
 
 .cart-wrapper .card-body .card-text input {
@@ -232,12 +249,11 @@ label {
   font-weight: bold;
 }
 
-.search-wrapper h3{
- margin-top: -20px;
+.search-wrapper h3 {
+  margin-top: -20px;
 }
 
-.search-wrapper a{
+.search-wrapper a {
   color: black;
   margin-left: 10px;
 }
-
